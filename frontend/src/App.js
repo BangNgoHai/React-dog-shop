@@ -30,7 +30,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/dogs" element={<DogsPage allDogs={allDogs}/>}/>
             <Route path="/checkout" element={<Cart/>}/>
-          </Routes>
+          </Routes> 
         </div>
       </Router>
     </CartContext.Provider>

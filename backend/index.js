@@ -80,7 +80,7 @@ const dogs = [
 
 app.get("/v1/dogs", (req, res) => {
     res.status(200).json(dogs);
-  });
+ });
 
 app.listen("8080",()=>{
     console.log("Server is running.....");
