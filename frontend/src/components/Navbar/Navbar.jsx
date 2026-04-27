@@ -9,9 +9,9 @@ const Navbar = () => {
             <Link to="/">Home</Link>
             <Link to="/dogs">Dogs</Link>
             <Link to="/checkout">My Cart</Link>
-      </nav>
+      </nav> 
     </div>
   )
 }
-
+ 
 export default Navbar

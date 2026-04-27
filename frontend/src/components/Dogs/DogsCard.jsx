@@ -26,9 +26,9 @@ const DogsCard = (props) => {
         </div>
         <div className="dogs-img-container">
             <img className="dog-img" src={imageUrl} alt={`picture of: ${name}`}/>
-        </div>
         <div className="dog-desc">{description}</div>
         <div className="dog-price">{price}$</div>
+        </div>
         {isAdded ? (
             <button disabled className="dogs-btn-disabled" >ADDED</button>
         ) : (
